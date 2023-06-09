@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./imagenes/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><span>Lucas</span></a>
+
+      <ul class="navbar">
+        <li><a href="#" class="active">Inicio</a></li>
+        <li><a href="#">Otros</a></li>
+        <li><a href="#">Not Available</a></li>    
+      </ul>
+      <div class="main">
+        <i id="car" class="ri-shopping-cart-2-line"></i>
+        <i class="ri-menu-line" id="menu-icon"></i>
+        <p class="compraTotal" id="compraTotal"></p>
+
+        <div class="carritoCompras">
+          <h2 class="carrito-titulo">Tu Carrito</h2>
+          <div id="carrito-contenido" class="carrito-contenido">
+            <div class="caja-carrito">
+              
+            </div>
+          </div>
+
+          <div id="total" class="total">
+
+          </div>
+
+          
+          <ion-icon id="cerrar-carrito" name="close-outline"></ion-icon>
+        </div>
+      </div>
+    </header>
+
+    <section class="primera-seccion">
+      <h1>Segunda Pre-Entrega</h1>
+      <p>Simulador E-commerce</p>
+    </section>
+
+    <div class="general">
+      <div class="buscador">
+          <input type="search" id="esp-buscar" placeholder="Introduce el nombre del producto...">
+          <i class="ri-search-line"></i>
+      </div>
+    </div>
+
+    <div id="contenedorProductos">
+      
+    
+      
+    </div>
+
+
+
+
+    <footer class="footerWS">
+      <div class="one">
+          <div class="box">
+              <figure>
+                  <a href="#"><span>Lucas</span></a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2>Sobre Mi</h2>
+              <p>¡Hola! Soy estudiante de la carrera de Ingenieria de Sistemas e Informática; actualmente formándome como Fullstack Developer</p>
+          </div>
+          <div class="box">
+              <h2>Contáctame</h2>
+              <div class="social">
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-linkedin-fill"></i></a>
+                  <a href=""><i class="ri-github-fill"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="two">
+          <small>&copy 2021 <b>Jaci Lucas</b> - Todos los Derechos Reservados.</small>
+      </div>
+  </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./JavaScript/script.js"></script>
+    <script src="./JavaScript/menu.js"></script>
+    <script src="./JavaScript/carrito.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+[
+    {
+        "id":0,
+        "nombre": "Pantalones vaqueros",
+        "precio": 88.05,
+        "subTotal":88.05,
+        "stock": "ilimitado",
+        "imagen": "./imagenes/productos/pantalonVaquero.jpg"
+    },
+    {
+        "id":1,
+        "nombre": "Pantalones Cargo",
+        "precio": 125.3,
+        "subTotal":125.3,
+        "stock": "ilimitado",
+        "imagen": "./imagenes/productos/pantalonCargo.jpg"
+    },
+    {
+        "id":2,
+        "nombre": "Cárdigan cuello en V",
+        "precio": 123.38,
+        "subTotal":123.38,
+        "stock": "ilimitado",
+        "imagen": "./imagenes/productos/cardiganV.jpg"
+    },
+    {
+        "id":3,
+        "nombre": "Abrigo de pana",
+        "precio": 130.93,
+        "subTotal": 130.93,
+        "stock": "ilimitado",
+        "imagen": "./imagenes/productos/abrigoPana.jpg"
+    },
+    {
+        "id":4,
+        "nombre": "Abrigo acolchado de algodón",
+        "precio": 123.95,
+        "stock": "ilimitado",
+        "subTotal":123.95,
+        "imagen": "./imagenes/productos/abrigoAlgodon.jpg"
+    }
+]
