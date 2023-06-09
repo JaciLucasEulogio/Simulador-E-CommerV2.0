@@ -21,7 +21,7 @@ class Producto {
     }
 }
 
-const productos = "../productos.json";
+const productos = "productos.json";
 
 
 async function cargarProductos(){
